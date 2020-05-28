@@ -42,13 +42,11 @@ We hope you enjoy using our website! :)
   <h3>Customer Preference</h3>
   <p>Please select your Grocery Item preference(s):</p>
 <select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')" >
-	<option value=""></option>
-	<option value="Vegetarian">Vegetarian Options</option>
-    	<option value="GlutenFree">GlutenFree Options</option>
-	<option value="GlutenFree&Vegetarian">GlutenFree&Vegetarian Options</option>
-	<option value="Organic">Organic Options</option>
-    	<option value="None">None</option>
-	
+	<input type="radio" name="option" value="Vegetarian">Vegetarian Options</br>
+	<input type="radio" name="option" value="GlutenFree">GlutenFree Options</br>
+	<input type="radio" name="option" value="GlutenFree&Vegetarian">GlutenFree&Vegetarian Options</br>
+	<input type="radio" name="option" value="Organic">Organic Options</br>
+	<input type="radio" name="option" value="None">None</option>
 </select>
 
 </div>
