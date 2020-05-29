@@ -158,7 +158,7 @@ var products = [
 	
 	
 ];
-	
+var restriction = document.getElementById("dietSelect").value;
 
 /*
 The restrictListProducts function. This function is responsible for filtering the products based on user needs. 
