@@ -32,9 +32,10 @@ We hope you enjoy using our website! :)
 </p>
 <!-- Tab links, each one with an onclick event associated with it -->
 <div class="tab">
-  <button class="tablinks active" onclick="openInfo(event, 'Client')">Customer Info</button>
+   <button class="tablinks active" onclick="openInfo(event, 'Client')">Customer Info</button>
   <button class="tablinks" onclick="openInfo(event, 'Products')">Items</button>
   <button class="tablinks" onclick="openInfo(event, 'Cart')">Checkout</button>
+  <button class="tablinks" onclick="openInfo(event, 'ProductInfo')">Product Information </button>
 </div>
 
 <!-- Tab content -->
@@ -72,6 +73,14 @@ We hope you enjoy using our website! :)
   <p>Here are your selected Grocery Items:</p>
   <div id="displayCart"></div>
 	</center>
+</div>
+	
+<div id="ProductInfo" class="tabcontent" style="display:none">
+<center>
+	<h2>Product Information</h2>
+	<p>Products from left to right: Lettuce, Spaghetti, Jell-o, Porridge, Broccoil, Bread, Milk <br> Orange Juice, Strawberry Cheese Cake
+	Salmon <p>
+</center>
 </div>
 
 <footer>
