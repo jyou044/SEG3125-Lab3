@@ -16,6 +16,15 @@ var products = [
 	},
 	
 	{
+		name: "Vegetables: Broccoli ($1.99)",
+		vegetarian: true,
+		organic: false,
+		glutenFree: true,
+		glutenFreeVeggie: true,
+		price: 1.99
+	},
+	
+	{
 		name: "Grains: Spaghetti ($1.27)",
 		vegetarian: true,
 		organic: false,
@@ -25,30 +34,12 @@ var products = [
 	},
 	
 	{
-		name: "Desserts: Jell-o ($1.77)",
-		vegetarian: false,
-		organic: false,
-		glutenFree: true,
-		glutenFreeVeggie: false,
-		price: 1.77
-	},
-	
-	{
 		name: "Grains: Porridge ($1.77)",
 		vegetarian: true,
 		organic: false,
 		glutenFree: false,
 		glutenFreeVeggie: false,
 		price: 1.77
-	},
-	
-	{
-		name: "Vegetables: Broccoli ($1.99)",
-		vegetarian: true,
-		organic: false,
-		glutenFree: true,
-		glutenFreeVeggie: true,
-		price: 1.99
 	},
 	{
 		name: "Grains: Bread ($2.35)",
@@ -77,6 +68,15 @@ var products = [
 	},
 	
 	{
+		name: "Desserts: Jell-o ($1.77)",
+		vegetarian: false,
+		organic: false,
+		glutenFree: true,
+		glutenFreeVeggie: false,
+		price: 1.77
+	},
+	
+	{
 		name: "Desserts: Strawberry Cheesecake ($6.50)",
 		vegetarian: false,
 		organic: false,
@@ -95,7 +95,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Lettuce ($1.50)",
+		name: "Vegetables: Organic Lettuce ($1.50)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: true,
@@ -104,7 +104,16 @@ var products = [
 	},
 	
 	{
-		name: "Organic Spaghetti ($2.27)",
+		name: "Vegetables: Organic Broccoli ($2.99)",
+		vegetarian: true,
+		organic: true,
+		glutenFree: true,
+		glutenFreeVeggie: true,
+		price: 2.99
+	},	
+	
+	{
+		name: "Grains: Organic Spaghetti ($2.27)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: false,
@@ -113,7 +122,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Porridge ($2.77)",
+		name: "Grains: Organic Porridge ($2.77)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: false,
@@ -122,15 +131,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Broccoli ($2.99)",
-		vegetarian: true,
-		organic: true,
-		glutenFree: true,
-		glutenFreeVeggie: true,
-		price: 2.99
-	},	
-	{
-		name: "Organic Milk ($5.49)",
+		name: "Dairy: Organic Milk ($5.49)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: true,
@@ -139,7 +140,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Orange Juice ($6.97)",
+		name: "Juices: Organic Orange Juice ($6.97)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: true,
@@ -148,7 +149,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Salmon ($11.00)",
+		name: "Fish: Organic Salmon ($11.00)",
 		vegetarian: false,
 		organic: true,
 		glutenFree: true,
