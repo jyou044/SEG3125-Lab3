@@ -7,7 +7,7 @@ https://github.com/carolinebarriere/carolinebarriere.github.io/blob/master/SEG31
 // Product array containing items that the user can choose from 
 var products = [
 	{
-		name: "Lettuce ($0.50)",
+		name: "Vegetables: ".bold() + "Lettuce ($0.50)",
 		vegetarian: true,
 		organic: false,
 		glutenFree: true,
@@ -16,7 +16,7 @@ var products = [
 	},
 	
 	{
-		name: "Spaghetti ($1.27)",
+		name: "Grains: ".bold() + "Spaghetti ($1.27)",
 		vegetarian: true,
 		organic: false,
 		glutenFree: false,
@@ -25,7 +25,7 @@ var products = [
 	},
 	
 	{
-		name: "Jell-o ($1.77)",
+		name: "Desserts: ".bold() + "Jell-o ($1.77)",
 		vegetarian: false,
 		organic: false,
 		glutenFree: true,
@@ -34,7 +34,7 @@ var products = [
 	},
 	
 	{
-		name: "Porridge ($1.77)",
+		name: "Grains: ".bold() + "Porridge ($1.77)",
 		vegetarian: true,
 		organic: false,
 		glutenFree: false,
@@ -43,7 +43,7 @@ var products = [
 	},
 	
 	{
-		name: "Broccoli ($1.99)",
+		name: "Vegetables: ".bold() + "Broccoli ($1.99)",
 		vegetarian: true,
 		organic: false,
 		glutenFree: true,
@@ -51,7 +51,7 @@ var products = [
 		price: 1.99
 	},
 	{
-		name: "Bread ($2.35)",
+		name: "Grains: ".bold() + "Bread ($2.35)",
 		vegetarian: true,
 		organic: false,
 		glutenFree: false,
@@ -59,7 +59,7 @@ var products = [
 		price: 2.35
 	},	
 	{
-		name: "Milk ($4.49)",
+		name: "Dairy: ".bold() + "Milk ($4.49)",
 		vegetarian: true,
 		organic: false,
 		glutenFree: true,
@@ -68,7 +68,7 @@ var products = [
 	},
 	
 	{
-		name: "Orange Juice ($5.97)",
+		name: "Juices: ".bold() + "Orange Juice ($5.97)",
 		vegetarian: true,
 		organic: false,
 		glutenFree: true,
@@ -77,7 +77,7 @@ var products = [
 	},
 	
 	{
-		name: "Strawberry Cheesecake ($6.50)",
+		name: "Desserts".bold() + " Strawberry Cheesecake ($6.50)",
 		vegetarian: false,
 		organic: false,
 		glutenFree: false,
@@ -86,7 +86,7 @@ var products = [
 	},
 	
 	{
-		name: "Salmon ($10.00)",
+		name: "Fish: ".bold() + "Salmon ($10.00)",
 		vegetarian: false,
 		organic: false,
 		glutenFree: true,
@@ -95,7 +95,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Lettuce ($1.50)",
+		name: "Organic".bold() + " Lettuce ($1.50)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: true,
@@ -104,7 +104,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Spaghetti ($2.27)",
+		name: "Organic".bold() + " Spaghetti ($2.27)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: false,
@@ -113,7 +113,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Porridge ($2.77)",
+		name: "Organic".bold() + " Porridge ($2.77)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: false,
@@ -122,7 +122,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Broccoli ($2.99)",
+		name: "Organic ".bold() + "Broccoli ($2.99)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: true,
@@ -130,7 +130,7 @@ var products = [
 		price: 2.99
 	},	
 	{
-		name: "Organic Milk ($5.49)",
+		name: "Organic".bold() + "Milk ($5.49)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: true,
@@ -139,7 +139,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Orange Juice ($6.97)",
+		name: "Organic".bold() + " Orange Juice ($6.97)",
 		vegetarian: true,
 		organic: true,
 		glutenFree: true,
@@ -148,7 +148,7 @@ var products = [
 	},
 	
 	{
-		name: "Organic Salmon ($11.00)",
+		name: "Organic".bold() +" Salmon ($11.00)",
 		vegetarian: false,
 		organic: true,
 		glutenFree: true,
