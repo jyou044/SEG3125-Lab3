@@ -39,43 +39,6 @@ Please go from the left most tab to the right most tab in order for a quality ex
   <button class="tablinks" onclick="openInfo(event, 'Cart')">Checkout -></button>
 </div>
 
-<!-- Tab content -->
-<div id="Client" class="tabcontent" style="display:none">
-<center>
-  <h3>Customer Preference</h3>
-  <p>Please select your Grocery Item Preference:</p>
-<form>
-<select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')" size=5>
-	<option value="Vegetarian">Vegetarian Options</option>
-    	<option value="GlutenFree">GlutenFree Options</option>
-	<option value="GlutenFree&Vegetarian">GlutenFree&Vegetarian Options</option>
-	<option value="Organic">Organic Options</option>
-    	<option value="None">None</option>
-	</select>
-	</form>
-</center>
-</div>
-
-<div id="Products" class="tabcontent" style="display:none">
-<center>
-  <h3>Grocery Products Chosen For You Based on Dietary Preference: </h3>
-  <p>We preselected products based on your dietary needs.</p>
-	 Please select items you would like to purchase:
-	 <div id="displayProduct"></div>
-	 <button id="addCart" type="button" class="block" onclick="selectedItems()">
-		Add selected items to cart.
-	</button>
-	</center>
-</div>
-
-<div id="Cart" class="tabcontent" style="display:none">
-<center>
-  <h3>Checkout</h3>
-  <p>Here are your selected Grocery Items:</p>
-  <div id="displayCart"></div>
-	</center>
-</div>
-	
 <div id="ProductInfo" class="tabcontent" style="display:block">
 <center>
 	<h2>Product Information</h2>
@@ -116,6 +79,43 @@ Please go from the left most tab to the right most tab in order for a quality ex
 	</div>
 </div>
 
+<!-- Tab content -->
+<div id="Client" class="tabcontent" style="display:none">
+<center>
+  <h3>Customer Preference</h3>
+  <p>Please select your Grocery Item Preference:</p>
+<form>
+<select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')" size=5>
+	<option value="Vegetarian">Vegetarian Options</option>
+    	<option value="GlutenFree">GlutenFree Options</option>
+	<option value="GlutenFree&Vegetarian">GlutenFree&Vegetarian Options</option>
+	<option value="Organic">Organic Options</option>
+    	<option value="None">None</option>
+	</select>
+	</form>
+</center>
+</div>
+
+<div id="Products" class="tabcontent" style="display:none">
+<center>
+  <h3>Grocery Products Chosen For You Based on Dietary Preference: </h3>
+  <p>We preselected products based on your dietary needs.</p>
+	 Please select items you would like to purchase:
+	 <div id="displayProduct"></div>
+	 <button id="addCart" type="button" class="block" onclick="selectedItems()">
+		Add selected items to cart.
+	</button>
+	</center>
+</div>
+
+<div id="Cart" class="tabcontent" style="display:none">
+<center>
+  <h3>Checkout</h3>
+  <p>Here are your selected Grocery Items:</p>
+  <div id="displayCart"></div>
+	</center>
+</div>
+	
 <footer>
 	<i>
 	Website Designed By: Jason You <br>
